@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   min-height:100vh;
   margin:0;
@@ -35,5 +39,46 @@ body {
   font-weight:900;
 }
 
-/* HERO /*
+/* HERO */
 
+.hero {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  gap:64px;
+  padding:32px 64px;
+  background-color:#1F2937;
+}
+
+.hero-body {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  flex-wrap:wrap;
+  width:425px;
+  gap:8px;
+}
+
+.hero-body h1,
+.hero-body p {
+  margin:0px;
+}
+
+.hero-body h1 {
+  font-size:48px;
+  font-weight:extra-bold;
+  color:#F9FAF8;
+}
+
+.hero-body p {
+  font-size:18px;
+  color:#E5E7EB;
+}
+
+.hero-body button {
+  background-color:#3882F6;
+  color:#E5E7EB;
+  font-weight:bold;
+  border-radius:5px;
+  padding: 8px 24px;
+}
