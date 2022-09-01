@@ -116,7 +116,9 @@ body {
 
 .info-pictures {
   display:flex;
-  gap:40px;
+  gap:72px;
+  flex-wrap:wrap;
+  justify-content:center;
 }
 
 .random-info-pic {
@@ -136,8 +138,12 @@ body {
 .info img {
   border: 2px solid #3882F6;
   border-radius:10px;
-  height:110px;
-  width:110px;
+  height:125px;
+  width:125px;
+}
+
+.info p {
+  margin:0px;
 }
 
 /* QUOTE */
