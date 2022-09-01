@@ -118,3 +118,31 @@ body {
   height:110px;
   width:110px;
 }
+
+/* QUOTE */
+
+.quote {
+  display:flex;
+  flex-direction:column;
+  background-color:#E5E7EB;
+  padding:64px 256px;
+  align-items:center;
+  justify-content: center;
+  gap:8px;
+}
+
+#quote-text {
+  font-size:36px;
+  font-weight:light;
+  font-style: italic;
+  color:#1F2937;
+  margin:0px;
+}
+
+#quote-name {
+  color:#1F2937;
+  font-weight:bold;
+  align-self:flex-end;
+  margin:0px;
+  font-size: 18px;
+}
