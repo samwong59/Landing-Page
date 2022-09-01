@@ -24,6 +24,8 @@ body {
 
 .header {
   justify-content:space-around;
+  position:fixed;
+  width:100%;
 }
 
 .footer {
